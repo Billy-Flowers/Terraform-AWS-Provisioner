@@ -5,7 +5,6 @@ image:
     - 'PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
 
 variables:
-  TF_VAR_gitlab_token: ${GITLAB_ACCESS_TOKEN}
   AWS_ACCESS_KEY_ID: ${MY_ACCESS_KEY}
   AWS_SECRET_ACCESS_KEY : ${MY_SECRET_KEY}
   AWS_DEFAULT_REGION: "us-east-1"
